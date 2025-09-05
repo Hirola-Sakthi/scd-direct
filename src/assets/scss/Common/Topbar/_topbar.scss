@@ -1,0 +1,20 @@
+.topbar-parent {
+    width: 100%;
+    position: fixed;
+    background-color: #000000;
+    z-index: 1000;
+    .topbar-subparent {
+        .container {
+            .row {
+                align-items: center;
+                .topbar-text {
+                    color: #ffffff;
+                    text-align: center;
+                    margin-bottom: 0;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+}

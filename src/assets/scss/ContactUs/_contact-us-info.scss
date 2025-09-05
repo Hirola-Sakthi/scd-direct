@@ -1,0 +1,124 @@
+.contact-us-info-parent {
+  height: auto;
+  width: 100%;
+  background-color: #f5f4ee;
+  padding: 80px 10px 80px 10px;
+  display: none;
+  .contact-us-info-subparent {
+    width: 100%;
+    .container {
+      .row {
+        row-gap: 30px;
+        justify-content: space-around;
+        .left-image-section {
+          height: 100%;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        .right-content {
+          .right-title {
+            h2 {
+              font-size: 48px;
+              font-weight: 500;
+              font-style: normal;
+              text-decoration: none;
+              line-height: 1.1em;
+              letter-spacing: 0.3px;
+              padding-bottom: 20px;
+            }
+          }
+          .contact-info {
+            .row {
+              gap: 20px;
+              .info {
+                .row {
+                  justify-content: flex-start;
+                  gap: 0px;
+                  .icon {
+                    max-width: 50px;
+                    img {
+                      width: 100%;
+                    }
+                  }
+                  .content {
+                    width: 70%;
+                    h5 {
+                      font-weight: 600;
+                      color: #000000;
+                      font-size: 20px;
+                    }
+                    p {
+                      font-size: 18px;
+                      color: #000000;
+                    }
+                    a {
+                      text-decoration: none;
+                      font-size: 18px;
+                      color: #000000;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .contact-us-info-parent {
+    .contact-us-info-subparent {
+      .container {
+        .row {
+          flex-direction: column-reverse;
+          .left-image-section {
+            img {
+              object-fit: cover;
+            }
+          }
+          .right-content {
+            .right-title {
+              h2 {
+                font-size: 42px;
+              }
+            }
+            .contact-info {
+              .row {
+                flex-direction: column;
+                gap: 0px;
+                .info {
+                  .row {
+                    gap: 10px;
+                    .icon {
+                      img {
+                        width: 100%;
+                      }
+                    }
+                    .content {
+                      padding-bottom: 30px;
+                      h5 {
+                        font-size: 20px;
+                      }
+                      p {
+                        font-size: 18px;
+                      }
+                      a {
+                        color: #000000;
+                        margin-bottom: 20px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

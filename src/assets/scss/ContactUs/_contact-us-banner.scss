@@ -1,0 +1,96 @@
+.contact-us-banner-parent {
+  height: 500px;
+  background-image: url("/contact-us-images/Ram-2500-Big-Horn.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  .contact-us-banner-subparent {
+    height: 500px;
+    .container {
+      height: 100%;
+      .row {
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        .breadcrumb {
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          padding-top: 40px;
+          .pagename {
+            h1 {
+              font-weight: 500;
+              font-size: 48px;
+              color: #ffffff;
+            }
+          }
+          .breadcrum-links {
+            .current-page {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 20px;
+              a {
+                text-transform: uppercase;
+                color: #fff;
+                font-size: 15px;
+                margin-bottom: 0;
+                text-decoration: none;
+              }
+              p {
+                text-transform: uppercase;
+                color: #fff;
+                font-size: 15px;
+                margin-bottom: 0;
+              }
+              .icon {
+                max-width: 18px;
+                img {
+                  width: 100%;
+                  margin-top: -5px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .contact-us-banner-parent {
+    height: 400px;
+    .contact-us-banner-subparent {
+      height: 400px;
+      .container {
+        .row {
+          .breadcrumb {
+            .pagename {
+              h1 {
+                font-weight: 400;
+                font-size: 42px;
+              }
+            }
+            .breadcrum-links {
+              .current-page {
+                a {
+                  font-size: 15px;
+                }
+                p {
+                  font-size: 15px;
+                }
+                .icon {
+                  img {
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

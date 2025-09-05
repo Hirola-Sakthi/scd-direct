@@ -1,0 +1,199 @@
+.about-company-parent {
+  height: auto;
+  width: 100%;
+  background-color: #f5f4ee;
+  padding: 100px 10px 100px 10px;
+  .about-company-subparent {
+    width: 100%;
+    .container {
+      .row {
+        row-gap: 30px;
+        justify-content: space-around;
+        .left-image-section {
+          height: 100%;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        .right-content {
+          .right-title {
+            h1 {
+              font-size: 16px;
+              font-weight: 500;
+              text-transform: uppercase;
+              font-style: normal;
+              text-decoration: none;
+              line-height: 1.6em;
+              letter-spacing: 5px;
+              padding-bottom: 20px;
+            }
+          }
+          .description {
+            p {
+              font-size: 16px;
+              line-height: 1.8em;
+              letter-spacing: 0.3px;
+            }
+          }
+          .learn-more-button-parent {
+            .learn-more-button {
+              border-radius: 20px;
+              border: none;
+              background-color: #85a3ac;
+              color: #fff;
+              padding: 10px 30px;
+              text-decoration: none;
+              text-transform: uppercase;
+              font-size: 12px;
+              font-weight: 600;
+              &:hover {
+                background-color: #000;
+              }
+            }
+          }
+        }
+      }
+      .learn-more-button-mobile-parent {
+        padding-top: 40px;
+        text-align: center;
+        .learn-more-button {
+          border-radius: 20px;
+          border: none;
+          background-color: #85a3ac;
+          color: #fff;
+          padding: 10px 30px;
+          text-decoration: none;
+          text-transform: uppercase;
+          font-size: 12px;
+          font-weight: 600;
+          &:hover {
+            background-color: #000;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .about-company-parent {
+    padding: 30px 10px 50px 10px;
+    .about-company-subparent {
+      .container {
+        .row {
+          flex-direction: column-reverse;
+          .left-image-section {
+            img {
+              object-fit: cover;
+            }
+          }
+          .right-content {
+            .right-title {
+              h1 {
+                font-size: 16px;
+              }
+            }
+            .description {
+              p {
+                font-size: 15px;
+              }
+            }
+            .learn-more-button-parent {
+              display: none;
+              .learn-more-button {
+                &:hover {
+                  background-color: #000;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .about-company-parent {
+    padding: 30px 10px 50px 10px;
+    .about-company-subparent {
+      .container {
+        .row {
+          flex-direction: column-reverse;
+          .left-image-section {
+            img {
+              object-fit: cover;
+            }
+          }
+          .right-content {
+            .right-title {
+              h1 {
+                font-size: 16px;
+              }
+            }
+            .description {
+              p {
+                font-size: 15px;
+              }
+            }
+            .learn-more-button-parent {
+              display: none;
+              .learn-more-button {
+                &:hover {
+                  background-color: #000;
+                }
+              }
+            }
+          }
+        }
+        .learn-more-button-mobile-parent {
+          display: block;
+          .learn-more-button {
+            &:hover {
+              background-color: #000;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-company-parent {
+    .about-company-subparent {
+      .container {
+        max-width: max-content;
+        .row {
+          flex-direction: row;
+          .left-image-section {
+            img {
+              object-fit: cover;
+            }
+          }
+          .right-content {
+            .right-title {
+              h1 {
+                font-size: 16px;
+              }
+            }
+            .description {
+              p {
+                font-size: 15px;
+              }
+            }
+            .learn-more-button-parent {
+              .learn-more-button {
+                &:hover {
+                  background-color: #000;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

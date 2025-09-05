@@ -1,0 +1,80 @@
+.dealer-pricing-gallery-parent {
+  background-color: #ffffff;
+  padding: 80px 10px 80px 10px;
+  .dealer-pricing-gallery-subparent {
+    .container {
+      .dealer-pricing-gallery-section-title {
+        h1 {
+          font-size: 48px;
+          text-align: center;
+          font-weight: 400;
+          padding-bottom: 30px;
+        }
+      }
+      .dealer-pricing-gallery-images {
+        padding-bottom: 50px;
+        .row {
+          .col-md-7 {
+            .left-image {
+              height: 400px;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+          .col-md-5 {
+            .right-image {
+              height: 400px;
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .dealer-pricing-gallery-parent {
+    padding: 80px 10px 0px 10px;
+    .dealer-pricing-gallery-subparent {
+      .container {
+        .dealer-pricing-gallery-section-title {
+          h1 {
+            font-size: 48px;
+          }
+        }
+        .dealer-pricing-gallery-images {
+          padding-bottom: 50px;
+          .row {
+            .col-md-7 {
+              .left-image {
+                padding-bottom: 30px;
+                height: auto;
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+            }
+            .col-md-5 {
+              .right-image {
+                height: auto;
+                img {
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

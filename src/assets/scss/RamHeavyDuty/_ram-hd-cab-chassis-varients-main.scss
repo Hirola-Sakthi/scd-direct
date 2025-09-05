@@ -1,0 +1,388 @@
+.ram-heavy-duty-cab-chassis-varients-main-parent {
+  height: 100vh;
+  .ram-heavy-duty-cab-chassis-varients-main-subparent {
+    height: 100%;
+    .container {
+      height: 100%;
+      .main-varients {
+        height: 100%;
+        .row {
+          width: 100%;
+          height: 100%;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row-reverse;
+          margin-left: 0;
+          .col-md-5 {
+            .varient-name {
+              h1 {
+                text-decoration: none;
+                color: #000;
+                font-size: 48px;
+              }
+            }
+            .varient-blurb {
+              padding-top: 20px;
+              p {
+                text-decoration: none;
+                color: #000;
+              }
+            }
+            .varient-buttons {
+              padding-top: 30px;
+              .row {
+                justify-content: left;
+                flex-direction: row;
+                .buttons {
+                  width: fit-content;
+                  display: inline-block;
+                  a {
+                    text-decoration: none;
+                    border-radius: 20px;
+                    font-size: 12px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    border: none;
+                    background-color: #85a3ac;
+                    color: white;
+                    padding: 10px 30px;
+                    &:hover {
+                      background-color: #000;
+                      color: #fff;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .col-md-7 {
+            .varient-image {
+              img {
+                width: 100%;
+                height: 500px;
+                object-fit: cover;
+                padding-right: 40px;
+              }
+            }
+          }
+        }
+      }
+      .varient-buttons-mobile {
+        padding-top: 30px;
+        .row {
+          justify-content: left;
+          flex-direction: row;
+          .buttons {
+            width: fit-content;
+            display: inline-block;
+            a {
+              text-decoration: none;
+              border-radius: 20px;
+              font-size: 12px;
+              font-weight: 500;
+              text-transform: uppercase;
+              border: none;
+              background-color: #85a3ac;
+              color: white;
+              padding: 10px 30px;
+              &:hover {
+                background-color: #000;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 357px) {
+  .ram-heavy-duty-cab-chassis-varients-main-parent {
+    height: auto;
+    .ram-heavy-duty-cab-chassis-varients-main-subparent {
+      height: 100%;
+      .container {
+        height: 100%;
+        .main-varients {
+          height: 100%;
+          padding-top: 50px;
+          padding-bottom: 70px;
+          .row {
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            margin-left: 0;
+            gap: 50px;
+            .col-md-5 {
+              .varient-name {
+                h1 {
+                  text-align: center;
+                  text-decoration: none;
+                  color: #000;
+                  font-size: 48px;
+                }
+              }
+              .varient-blurb {
+                padding-top: 20px;
+                p {
+                  text-align: center;
+                  text-decoration: none;
+                  color: #000;
+                }
+              }
+              .varient-buttons {
+                display: none;
+                padding-top: 30px;
+                .row {
+                  justify-content: center;
+                  gap: 30px;
+                  .buttons {
+                    width: fit-content;
+                    display: inline-block;
+                    a {
+                      &:hover {
+                        background-color: #000;
+                        color: #fff;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .col-md-7 {
+              .varient-image {
+                img {
+                  width: 100%;
+                  height: 250px;
+                  object-fit: cover;
+                  padding-right: 0px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 357px) and (max-width: 575px) {
+  .ram-heavy-duty-cab-chassis-varients-main-parent {
+    height: auto;
+    .ram-heavy-duty-cab-chassis-varients-main-subparent {
+      height: 100%;
+      .container {
+        height: 100%;
+        .main-varients {
+          height: 100%;
+          padding-top: 50px;
+          padding-bottom: 70px;
+          .row {
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            margin-left: 0;
+            gap: 50px;
+            .col-md-5 {
+              .varient-name {
+                h1 {
+                  text-align: center;
+                  text-decoration: none;
+                  color: #000;
+                  font-size: 48px;
+                }
+              }
+              .varient-blurb {
+                padding-top: 20px;
+                p {
+                  text-align: center;
+                  text-decoration: none;
+                  color: #000;
+                }
+              }
+              .varient-buttons {
+                display: none;
+                padding-top: 30px;
+                .row {
+                  justify-content: center;
+                  gap: 0px;
+                  .buttons {
+                    width: fit-content;
+                    display: inline-block;
+                    a {
+                      &:hover {
+                        background-color: #000;
+                        color: #fff;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .col-md-7 {
+              .varient-image {
+                img {
+                  width: 100%;
+                  height: 250px;
+                  object-fit: cover;
+                  padding-right: 0px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .ram-heavy-duty-cab-chassis-varients-main-parent {
+    height: auto;
+    .ram-heavy-duty-cab-chassis-varients-main-subparent {
+      height: 100%;
+      .container {
+        height: 100%;
+        .main-varients {
+          height: 100%;
+          padding-top: 50px;
+          padding-bottom: 70px;
+          .row {
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            margin-left: 0;
+            gap: 50px;
+            .col-md-5 {
+              .varient-name {
+                h1 {
+                  text-align: center;
+                  text-decoration: none;
+                  color: #000;
+                  font-size: 48px;
+                }
+              }
+              .varient-blurb {
+                padding-top: 20px;
+                p {
+                  text-align: center;
+                  text-decoration: none;
+                  color: #000;
+                }
+              }
+              .varient-buttons {
+                display: none;
+                padding-top: 30px;
+                .row {
+                  justify-content: center;
+                  gap: 0px;
+                  .buttons {
+                    width: fit-content;
+                    display: inline-block;
+                    a {
+                      &:hover {
+                        background-color: #000;
+                        color: #fff;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .col-md-7 {
+              .varient-image {
+                img {
+                  width: 100%;
+                  height: 300px;
+                  object-fit: cover;
+                  padding-right: 0px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ram-heavy-duty-cab-chassis-varients-main-parent {
+    height: auto;
+    .ram-heavy-duty-cab-chassis-varients-main-subparent {
+      height: 100%;
+      .container {
+        height: 100%;
+        .main-varients {
+          height: 100%;
+          padding-top: 50px;
+          padding-bottom: 70px;
+          .row {
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            margin-left: 0;
+            gap: 50px;
+            .col-md-5 {
+              width: 100%;
+              .varient-name {
+                h1 {
+                  text-align: center;
+                  text-decoration: none;
+                  color: #000;
+                  font-size: 48px;
+                }
+              }
+              .varient-blurb {
+                padding-top: 20px;
+                p {
+                  text-align: center;
+                  text-decoration: none;
+                  color: #000;
+                }
+              }
+              .varient-buttons {
+                display: none;
+                padding-top: 30px;
+                .row {
+                  justify-content: center;
+                  gap: 0px;
+                  .buttons {
+                    width: fit-content;
+                    display: inline-block;
+                    a {
+                      &:hover {
+                        background-color: #000;
+                        color: #fff;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .col-md-7 {
+              width: 100%;
+              .varient-image {
+                img {
+                  width: 100%;
+                  height: 300px;
+                  object-fit: cover;
+                  padding-right: 0px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

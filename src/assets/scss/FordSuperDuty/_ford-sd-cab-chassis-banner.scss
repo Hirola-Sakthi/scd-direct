@@ -1,0 +1,60 @@
+.ford-super-duty-cab-chassis-varient-banner-parent {
+  height: 500px;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+
+  .ford-super-duty-cab-chassis-varient-banner-subparent {
+    height: 500px;
+    .container {
+      height: 100%;
+      .row {
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        .breadcrumb {
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          padding-top: 40px;
+          .pagename {
+            h1 {
+              font-weight: 500;
+              font-size: 48px;
+              color: #ffffff;
+              text-align: center;
+              filter: drop-shadow(2px 4px 6px black);
+            }
+          }
+          .breadcrum-links {
+            .current-page {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 20px;
+              a {
+                text-transform: uppercase;
+                color: #fff;
+                font-size: 15px;
+                margin-bottom: 0;
+                text-decoration: none;
+              }
+              p {
+                text-transform: uppercase;
+                color: #fff;
+                font-size: 15px;
+                margin-bottom: 0;
+              }
+              .icon {
+                max-width: 18px;
+                img {
+                  width: 100%;
+                  margin-top: -5px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

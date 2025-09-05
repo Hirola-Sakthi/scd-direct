@@ -1,0 +1,304 @@
+.ford-150-parent {
+    // background-image: url("/home/homebanner.avif");
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    height: 830px;
+    .ford-150-subParent {
+      padding: 0;
+      width: 100%;
+      height: fit-content;
+      position: relative; /* Ensure relative positioning for absolute child elements */
+  
+      /* Styles for video background */
+      /* Styles for banner content */
+  
+      .banner-content {
+        position: relative; /* Establishes a stacking context */
+        width: 100%;
+        height: 85vh;
+        // display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        color: #fff;
+        .bannerImage {
+          width: 100%;
+          height: 830px;
+          background-color: #191917;
+        } /* Text color for overlay content */
+      }
+  
+      /* Styles for banner sub content (text) */
+      .banner-sub {
+        //   width: 75%;
+        color: #000;
+        position: absolute;
+        top: 70%;
+        margin: auto;
+        left: 35%;
+        h5 {
+          font-weight: 500;
+          position: relative;
+          z-index: 1;
+          font-size: 26px;
+        }
+      }
+  
+      h2,
+      p {
+        font-family: "Jost", sans-serif;
+        font-weight: 400;
+        position: relative;
+        width: 75%;
+        z-index: 1;
+      }
+      h4 {
+        font-family: "Jost", sans-serif;
+        font-weight: 400;
+        position: relative;
+        width: 75%;
+        z-index: 1;
+      }
+  
+      h2 {
+        font-size: 56px;
+        line-height: 70px;
+        letter-spacing: 0px;
+        padding: 10px 0;
+        font-weight: 600;
+        width: 100%;
+      }
+  
+      p {
+        font-size: 16px;
+        line-height: 26px;
+      }
+  
+      /* Styles for banner button */
+      .banner-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        gap: 30px;
+      }
+      .banner-button-buttom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // margin-top: 25px;
+        gap: 30px;
+      }
+  
+      .banner-button a {
+        border-radius: 10px;
+        background-color: #85A3AC;
+        color: white;
+        padding: 10px 60px;
+        text-decoration: none;
+      }
+  
+      /* Overlay effect */
+      .banner-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 575px) {
+    .ford-150-parent {
+      .ford-150-subParent {
+        height: fit-content;
+        padding: 0px 0;
+  
+        .banner-content {
+          width: 100%;
+          height: fit-content;
+          padding-bottom: 60px;
+          .banner-sub {
+            width: 90%;
+            position: relative;
+            top: 30px;
+            h5 {
+              font-size: 20px;
+              top: 25px;
+              text-align: center;
+            }
+          }
+  
+          h2 {
+            line-height: 38px;
+            font-weight: 600;
+            font-size: 24px;
+            letter-spacing: -1px;
+            padding: 30px 0px 10px 0px;
+            position: relative;
+            z-index: 999;
+            color: #000;
+            width: 100%;
+            text-align: center;
+          }
+  
+          p {
+            width: 90%;
+            font-size: 14px;
+            font-weight: 500;
+            position: relative;
+            z-index: 999;
+            color: #fff;
+          }
+  
+          .banner-button {
+            a {
+              padding: 7px 14px;
+              font-size: 14px;
+              position: relative;
+              z-index: 999;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .ford-150-parent {
+      .ford-150-subParent {
+        height: fit-content;
+        padding: 0px 0;
+  
+        .banner-content {
+          width: 100%;
+          height: fit-content;
+          padding-bottom: 60px;
+          .banner-sub {
+            width: 90%;
+            h5 {
+              font-size: 22px;
+              left: 60px;
+              top: 20px;
+            }
+          }
+          h2 {
+            line-height: 38px;
+            font-weight: 600;
+            width: 80%;
+            margin: auto;
+            font-size: 30px;
+            letter-spacing: -1px;
+            padding: 30px 0px 30px 0px;
+          }
+  
+          p {
+            width: 100%;
+            font-size: 15px;
+            font-weight: 600;
+          }
+  
+          .banner-button {
+            a {
+              padding: 7px 14px;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ford-150-parent {
+      .ford-150-subParent {
+        height: fit-content;
+        padding: 0px 0;
+  
+        .banner-content {
+          width: 100%;
+          height: fit-content;
+          padding-bottom: 60px;
+          .banner-sub {
+            width: 70%;
+            h5 {
+              top: 25px;
+              font-size: 22px;
+            }
+          }
+          h2 {
+            line-height: 40px;
+            font-weight: 600;
+            font-size: 32px;
+            letter-spacing: -1px;
+            padding: 30px 0px 10px 0px;
+          }
+  
+          p {
+            width: 80%;
+            font-size: 16px;
+            margin: auto;
+            font-weight: 600;
+          }
+  
+          .banner-button {
+            a {
+              padding: 7px 14px;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .ford-150-parent {
+      .ford-150-subParent {
+        height: fit-content;
+        padding: 0px 0;
+  
+        .banner-content {
+          width: 100%;
+          height: fit-content;
+          padding-bottom: 80px;
+          .banner-sub {
+            height: fit-content;
+            width: 80%;
+            h5 {
+              top: 26px;
+              font-size: 22px;
+            }
+          }
+  
+          h2 {
+            line-height: 56px;
+            font-weight: 600;
+            font-size: 38px;
+            letter-spacing: -1px;
+            padding: 30px 0px 10px 0px;
+          }
+  
+          p {
+            width: 70%;
+            font-size: 15px;
+            font-weight: 600;
+          }
+  
+          .banner-button {
+            a {
+              padding: 7px 14px;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+  

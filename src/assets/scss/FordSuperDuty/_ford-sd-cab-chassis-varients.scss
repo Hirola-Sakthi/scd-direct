@@ -1,0 +1,72 @@
+.ford-super-duty-cab-chassis-varients-parent {
+  padding-top: 30px;
+  .ford-super-duty-cab-chassis-varients-subparent {
+    .models {
+      .container {
+        .varient-name {
+          h1 {
+            text-decoration: none;
+            padding: 3% 0% 3% 0%;
+          }
+        }
+        .row {
+          width: 100%;
+          margin-right: 0;
+          margin-left: 0;
+          justify-content: flex-start;
+          .col-md-4 {
+            padding-bottom: 30px;
+            .model-card {
+              background: #0000000a;
+              border-radius: 5px;
+              .row {
+                justify-content: center;
+                .model-image {
+                  padding-bottom: 10px;
+                  img {
+                    width: 100%;
+                  }
+                }
+                .divider {
+                  width: 80%;
+                  height: 1px;
+                  background-color: #000000;
+                }
+                .model-name {
+                  padding-bottom: 20px;
+                  padding-top: 20px;
+                  h4 {
+                    text-decoration: none;
+                    text-align: center;
+                    font-size: 23px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .row {
+          .varients-cta {
+            padding: 10px 0 40px 0;
+            text-align: center;
+            a {
+              text-decoration: none;
+              border-radius: 40px;
+              font-size: 18px;
+              font-weight: 500;
+              text-transform: uppercase;
+              border: none;
+              background-color: #85a3ac;
+              color: white;
+              padding: 15px 40px;
+              &:hover {
+                background-color: #000;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
