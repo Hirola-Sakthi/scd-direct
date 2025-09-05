@@ -13,7 +13,7 @@ const VisionAndMission = () => {
               <div className="row">
                 <div className="col-md-7">
                   <div className="left-image">
-                    <img src="/about/vission-mission.jpg" alt="" />
+                    <img src="/about/vission-mission.avif" alt="" />
                   </div>
                 </div>
                 <div className="col-md-5">
