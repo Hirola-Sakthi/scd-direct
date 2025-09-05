@@ -60,21 +60,21 @@ const OurVehicles = () => {
               <SwiperSlide>
                 <img
                   className="swiper-images"
-                  src="/home/sliderimage5.webp"
+                  src="/home/sliderimage5.jpg"
                   alt=""
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   className="swiper-images"
-                  src="/vehicles/sliderimage4.avif"
+                  src="/vehicles/sliderimage4.jpg"
                   alt=""
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   className="swiper-images"
-                  src="/home/ram1500.avif"
+                  src="/home/ram1500.jpg"
                   alt=""
                 />
               </SwiperSlide>
