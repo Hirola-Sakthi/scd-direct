@@ -33,7 +33,7 @@ const RaptorRMain = () => {
                 </div>
                 <div className="col-md-7">
                   <div className="varient-image">
-                    <img src="/ford150-images/ford-raptor-r.jpg" alt="f-sd-2025" />
+                    <img src="/ford150-images/ford-raptor-r1.jpg" alt="f-sd-2025" />
                   </div>
                 </div>
               </div>

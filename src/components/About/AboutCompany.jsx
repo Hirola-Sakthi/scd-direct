@@ -10,7 +10,7 @@ const AboutCompany = () => {
             <div className="row">
               <div className="col-md-6">
                 <div className="left-image-section">
-                  <img src="/ram1500rho/ram-left-alternate.avif" alt="" />
+                  <img src="/ram1500rho/ram-left-alternate.jpg" alt="" />
                 </div>
               </div>
               <div className="col-md-5">

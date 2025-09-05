@@ -11,7 +11,7 @@ const ADRComplianceAbout = () => {
               <div className="col-md-6">
                 <div className="left-image-section">
                   <img
-                    src="/adr-compliance-images/adr-compliance.jpg"
+                    src="/adr-compliance-images/adr-compliance.avif"
                     alt=""
                   />
                 </div>

@@ -11,7 +11,7 @@ const DealerPricingAbout = () => {
               <div className="col-md-6">
                 <div className="left-image-section">
                   <img
-                    src="/dealer-pricing-images/dealer-pricing.jpeg"
+                    src="/dealer-pricing-images/dealer-pricing1.avif"
                     alt=""
                   />
                 </div>
