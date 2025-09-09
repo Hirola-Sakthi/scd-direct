@@ -26,6 +26,12 @@ import BlogContentThree from './pages/BlogsSingleContainer/BlogContentThree';
 import BlogContentFour from './pages/BlogsSingleContainer/BlogContentFour';
 import BlogContentFive from './pages/BlogsSingleContainer/BlogContentFive';
 import BlogContentSix from './pages/BlogsSingleContainer/BlogContentSix';
+import BlogContentSeven from './pages/BlogsSingleContainer/BlogContentSeven';
+import BlogContentEight from './pages/BlogsSingleContainer/BlogContentEight';
+import BlogContentNine from './pages/BlogsSingleContainer/BlogContentNine';
+import BlogContentTen from './pages/BlogsSingleContainer/BlogContentTen';
+import BlogContentEleven from './pages/BlogsSingleContainer/BlogContentEleven';
+import BlogContentTwelve from './pages/BlogsSingleContainer/BlogContentTwelve';
 
 function App() {
   const helmetContext = {}
@@ -73,6 +79,12 @@ function App() {
         <Route path='/why-american-vehicles-are-perfect-for-australian-roads-and-conditions' exact element={<BlogContentFour />} />
         <Route path='/why-importing-american-vehicles-to-australia-is-easier-with-scd-direct' exact element={<BlogContentFive />} />
         <Route path='/why-right-hand-drive-conversion-matters-for-imported-vehicles' exact element={<BlogContentSix />} />
+        <Route path='/how-to-import-cars-from-australia-guide-scd-direct' exact element={<BlogContentSeven />} />
+        <Route path='/right-hand-drive-conversions-australia-scd-direct' exact element={<BlogContentEight />} />
+        <Route path='/adr-compliance-australia-vehicle-importers-scd-direct' exact element={<BlogContentNine />} />
+        <Route path='/how-to-avoid-common-mistakes-when-importing-cars-to-australia' exact element={<BlogContentTen />} />
+        <Route path='/tips-vehicle-shipping-usa-to-australia' exact element={<BlogContentEleven />} />
+        <Route path='/australians-choosing-american-pickup-trucks' exact element={<BlogContentTwelve />} />
 
       </Routes>
     </Router>
