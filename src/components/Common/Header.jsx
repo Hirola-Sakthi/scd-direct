@@ -63,13 +63,14 @@ const CustomHeader = () => {
           >
             <Link to="/ford150" style={{ textDecoration: "none" }}>
               <img
-                src="/megamenu/ford-150.jpg"
+                src="/megamenu/ford-150.png"
                 alt="Column 1 - Image 1"
                 style={{
                   width: "100%",
-                  maxWidth: "200px",
+                  maxWidth: "140px",
                   marginBottom: "10px",
                   borderRadius: "5px",
+                  marginTop:"20px"
                 }}
               />
               <h6 className="text-center" style={{fontSize: '15px', fontWeight: '600', textTransform: 'uppercase'}}>Ford 150</h6>
@@ -87,12 +88,12 @@ const CustomHeader = () => {
           >
             <Link to="/ford-super-duty" style={{ textDecoration: "none" }}>
               <img
-                src="/megamenu/2.jpg"
+                src="/megamenu/ford-super-duty.png"
                 alt="Column 2 - Image 1"
                 style={{
                   width: "100%",
-                  maxWidth: "200px",
-                  marginBottom: "10px",
+                  maxWidth: "160px",
+                  marginBottom: "0px",
                   borderRadius: "5px",
                 }}
               />
@@ -182,13 +183,14 @@ const CustomHeader = () => {
           >
             <Link to="/ford150" style={{ textDecoration: "none" }}>
               <img
-                src="/megamenu/ford-150.jpg"
+                src="/megamenu/ford-150.png"
                 alt="Column 1 - Image 1"
                 style={{
                   width: "100%",
-                  maxWidth: "200px",
+                  maxWidth: "140px",
                   marginBottom: "10px",
                   borderRadius: "5px",
+                   marginTop:"20px"
                 }}
               />
               <h6 className="text-center">Ford 150</h6>
@@ -207,12 +209,12 @@ const CustomHeader = () => {
           >
             <Link to="/ford-super-duty" style={{ textDecoration: "none" }}>
               <img
-                src="/megamenu/2.jpg"
+                src="/megamenu/ford-super-duty.png"
                 alt="Column 2 - Image 1"
                 style={{
                   width: "100%",
-                  maxWidth: "200px",
-                  marginBottom: "10px",
+                  maxWidth: "160px",
+                  marginBottom: "0px",
                   borderRadius: "5px",
                 }}
               />
