@@ -17,12 +17,12 @@ const fadeInVariant = {
 
 const ContactUsPage = () => {
   const seoData = {
-    title: "About Us | Your Company Name",
+    title: "Title: Contact SCD Direct – Import, Conversion, Compliance & Retail Experts",
     description:
-      "Learn about our company history, mission, values and the team behind Your Company Name.",
+      "Get in touch with SCD Direct for all your vehicle import, conversion, compliance, and retail needs. Find contact details, our location, business hours, and how our expert team can assist you today.",
     keywords: "about us, company history, automotive, truck conversion",
-    canonicalUrl: "https://yourwebsite.com/about-us",
-    ogImage: "https://yourwebsite.com/images/about-us-og.jpg",
+    canonicalUrl: "https://scddirect.com.au/contact-us",
+    // ogImage: "https://yourwebsite.com/images/about-us-og.jpg",
   };
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -39,14 +39,14 @@ const ContactUsPage = () => {
         <meta property="og:title" content={seoData.title} />
         <meta property="og:description" content={seoData.description} />
         <meta property="og:url" content={seoData.canonicalUrl} />
-        <meta property="og:image" content={seoData.ogImage} />
+        {/* <meta property="og:image" content={seoData.ogImage} /> */}
         <meta property="og:type" content="website" />
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={seoData.title} />
         <meta name="twitter:description" content={seoData.description} />
-        <meta name="twitter:image" content={seoData.ogImage} />
+        {/* <meta name="twitter:image" content={seoData.ogImage} /> */}
       </Helmet>
       <TopBar />
       <CustomHeader />

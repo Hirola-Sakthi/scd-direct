@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Blogscontentcards = ({ filterLink }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const homeBlogsRef = useRef(null);
-  const blogsPerPage = 6;
+  const blogsPerPage = 9;
 
   const scrollToTop = () => {
     if (homeBlogsRef.current) {
@@ -55,7 +55,7 @@ const Blogscontentcards = ({ filterLink }) => {
     {
       title:
         "Why Importing American Vehicles to Australia Is Easier with SCD Direct",
-      date: "22 August 2025",
+      date: "7 August 2025",
       description:
         "Importing American vehicles to Australia is simple with SCD Direct—offering expert compliance, fast delivery & seamless service tailored to Aussie roads.",
       image:
@@ -64,16 +64,17 @@ const Blogscontentcards = ({ filterLink }) => {
     },
     {
       title: "Why Right-Hand Drive Conversion Matters for Imported Vehicles",
-      date: "28 August 2025",
+      date: "9 August 2025",
       description:
         "Understand the importance of right-hand drive conversion for imported vehicles. SCD Direct ensures compliance, comfort, and road safety across Australia.",
       image:
         "/blogs/why-right-hand-drive-conversion-matters-for-imported-vehicles.png",
       link: "/why-right-hand-drive-conversion-matters-for-imported-vehicles",
     },
-     {
-      title: "How to Import Cars from Australia | Complete Guide with SCD Direct",
-      date: "3 September 2025",
+    {
+      title:
+        "How to Import Cars from Australia | Complete Guide with SCD Direct",
+      date: "11 August 2025",
       description:
         "Explore how to import cars from Australia step by step. SCD Direct’s guide explains the process, costs, and key tips for a smooth car import experience.",
       image:
@@ -81,8 +82,9 @@ const Blogscontentcards = ({ filterLink }) => {
       link: "/how-to-import-cars-from-australia-guide-scd-direct",
     },
     {
-      title: "Right-Hand Drive Conversions in Australia | What You Need to Know",
-      date: "5 September 2025",
+      title:
+        "Right-Hand Drive Conversions in Australia | What You Need to Know",
+      date: "12 August 2025",
       description:
         "Explore right-hand drive conversions in Australia with SCD Direct. Understand the process, costs, and compliance steps to ensure a safe, legal conversion.",
       image:
@@ -90,26 +92,28 @@ const Blogscontentcards = ({ filterLink }) => {
       link: "/right-hand-drive-conversions-australia-scd-direct",
     },
     {
-      title: "ADR Compliance in Australia | What Every Vehicle Importer Should Know",
-      date: "6 September 2025",
+      title:
+        "ADR Compliance in Australia | What Every Vehicle Importer Should Know",
+      date: "14 August 2025",
       description:
         "Learn ADR compliance in Australia with SCD Direct. Discover vehicle import rules, standards, and everything importers need to stay legal and compliant.",
       image:
         "/blogs/adr-compliance-in-australia-what-every-vehicle-importer-should-know.png",
       link: "/adr-compliance-australia-vehicle-importers-scd-direct",
     },
-     {
+    {
       title: "How to Avoid Common Mistakes When Importing Cars to Australia",
-      date: "7 September 2025",
+      date: "16 August 2025",
       description:
         "Learn the top mistakes to avoid when importing cars to Australia. SCD Direct helps you navigate rules, costs, and compliance for a smooth import experience.",
       image:
         "/blogs/how-to-avoid-common-mistakes-when-importing-cars-to-australia.png",
       link: "/how-to-avoid-common-mistakes-when-importing-cars-to-australia",
     },
-         {
-      title: "Tips for a Smooth Vehicle Shipping Experience from the USA to Australia",
-      date: "8 September 2025",
+    {
+      title:
+        "Tips for a Smooth Vehicle Shipping Experience from the USA to Australia",
+      date: "18 August 2025",
       description:
         "Shipping a car from the USA to Australia? SCD Direct shares expert tips for smooth vehicle shipping, covering costs, compliance, and stress-free delivery.",
       image:
@@ -117,14 +121,214 @@ const Blogscontentcards = ({ filterLink }) => {
       link: "/tips-vehicle-shipping-usa-to-australia",
     },
 
-     {
+    {
       title: "Why More Australians Are Choosing American Pickup Trucks",
-      date: "9 September 2025",
+      date: "20 August 2025",
       description:
         "More Australians are choosing American pickup trucks for power, style, and utility. Learn why U.S. trucks are in demand and how SCD Direct makes importing easy.",
       image:
         "/blogs/why-more-australians-are-choosing-american-pickup-trucks.png",
       link: "/australians-choosing-american-pickup-trucks",
+    },
+
+    {
+      title:
+        "ADR Compliance Explained: Importing and Converting American Trucks in Australia",
+      date: "22 August 2025",
+      description:
+        "Understand ADR compliance for American trucks in Australia. A complete guide to vehicle conversion, safety standards, and registration rules.",
+      image:
+        "/blogs/adr-compliance-explained-importing-and-converting-american-trucks-in-australia.png",
+      link: "/adr-compliance-importing-converting-american-trucks-australia",
+    },
+
+    {
+      title:
+        "Ford F-150 vs F-250: Which RHD Conversion is Best for Australian Roads?",
+      date: "24 August 2025",
+      description:
+        "Compare Ford F-150 and F-250 right-hand drive conversions in Australia. Find out towing capacity, costs, and the best truck for your needs.",
+      image:
+        "/blogs/ford-f-150-vs-f-250-which-rhd-conversion-is-best-for-australian-roads.png",
+      link: "/ford-f150-vs-f250-rhd-conversion-australia",
+    },
+    {
+      title:
+        "RAM 1500, 2500, or 3500? Choosing the Right RAM Truck for Towing in Australia",
+      date: "26 August 2025",
+      description:
+        "Compare RAM 1500, 2500, and 3500 for towing in Australia. Get expert advice on RHD conversions, ADR compliance, and towing capacity.",
+      image:
+        "/blogs/ram-1500-2500-or-3500-choosing-the-right-ram-truck-for-towing-in-australia.png",
+      link: "/ram-1500-2500-3500-towing-australia",
+    },
+    {
+      title: "RHD Conversion Melbourne: American Trucks Made Road-Legal",
+      date: "28 August 2025",
+      description:
+        "Expert RHD conversions in Melbourne for American trucks. ADR compliance, towing readiness, and road-legal safety with SCD Direct.",
+      image:
+        "/blogs/rhd-conversion-melbourne-american-trucks-made-road-legal.png",
+      link: "/rhd-conversion-melbourne-american-trucks-adr-compliance",
+    },
+    {
+      title: "RHD Conversion Sydney: Professional American Truck Conversions",
+      date: "30 August 2025",
+      description:
+        "Expert RHD conversions in Sydney for American trucks. ADR compliance, towing readiness, and road-legal safety with SCD Direct.",
+      image:
+        "/blogs/rhd-conversion-sydney-professional-american-truck-conversions.png",
+      link: "/rhd-conversion-sydney-american-trucks-&-adr-compliance",
+    },
+    {
+      title:
+        "Right Hand Drive Conversions QLD: American Trucks Made Road-Legal",
+      date: "2 September 2025",
+      description:
+        "Expert RHD conversions in QLD for American trucks. Ensure ADR compliance, towing readiness, and road-legal safety with SCD Direct.",
+      image:
+        "/blogs/right-hand-drive-conversions-qld-american-trucks-made-road-legal.png",
+      link: "/right-hand-drive-conversions-qld-rhd-american-trucks-adr-compliance",
+    },
+    {
+      title:
+        "Right-Hand Drive Conversions in Australia: Everything You Need to Know",
+      date: "3 September 2025",
+      description:
+        "Learn how left-hand drive trucks are converted to right-hand drive in Australia. Get costs, process, and compliance details for Ford, Ram & Chevy.",
+      image:
+        "/blogs/right-hand-drive-conversions-in-australia-everything-you-need-to-know.png",
+      link: "/right-hand-drive-conversions-australia-guide",
+    },
+    {
+      title:
+        "Truck Conversion Specialists Australia: RHD Conversion & ADR Compliance",
+      date: "4 September 2025",
+      description:
+        "Expert truck conversion specialists in Australia. RHD conversion, ADR compliance, and towing solutions for American trucks by SCD Direct.",
+      image:
+        "/blogs/truck-conversion-specialists-australia-rhd-conversion-&-adr-compliance.png",
+      link: "/truck-conversion-specialists-australia-rhd-adr-compliance",
+    },
+    {
+      title:
+        "Vehicle Compliance Australia: Import, RHD Conversion & ADR Standards",
+      date: "5 September 2025",
+      description:
+        "Ensure your American truck meets vehicle compliance standards in Australia. Learn about RHD conversion, ADR compliance, and registration with SCD Direct.",
+      image:
+        "/blogs/vehicle-compliance-australia-import-rhd-conversion-&-adr-standards.png",
+      link: "/vehicle-compliance-australia-rhd-adr-certification",
+    },
+    {
+      title:
+        "Why American Trucks Are Becoming Popular in Australia: Top Models to Watch",
+      date: "6 September 2025",
+      description:
+        "Discover why American trucks are gaining popularity in Australia. Explore the best Ford, Ram & Chevrolet models available in RHD conversions.",
+      image:
+        "/blogs/why-american-trucks-are-becoming-popular-in-australia-top-models-to-watch.png",
+      link: "/american-trucks-popularity-australia-top-models",
+    },
+    {
+      title:
+        "ADR Compliance Trucks Australia: RHD Conversion & Road Safety",
+      date: "7 September 2025",
+      description:
+        "Ensure your American truck is ADR compliant in Australia. Learn about RHD conversion, safety regulations, and road-legal requirements with SCD Direct.",
+      image:
+        "/blogs/adr-compliance-trucks-australia-rhd-conversion-&-road-safety.png",
+      link: "/adr-compliance-trucks-australia-rhd-conversion-safety-standards",
+    },
+    {
+      title:
+        "Buy American Trucks in Australia: A Complete Guide",
+      date: "8 September 2025",
+      description:
+        "Learn how to buy American trucks in Australia, including import, RHD conversion, ADR compliance, towing capabilities, and finance options.",
+      image:
+        "/blogs/buy-american-trucks-in-australia-a-complete-guide.png",
+      link: "/buy-american-trucks-australia-guide",
+    },
+    {
+      title:
+        "Ford F250 RHD Conversion: Import, Compliance & Road-Ready Guide",
+      date: "9 September 2025",
+      description:
+        "Learn how to convert Ford F250 trucks to RHD in Australia. ADR compliance, import process, towing, and upgrades explained by SCD Direct.",
+      image:
+        "/blogs/ford-f-250-rhd-conversion-import-compliance-&-road-ready-guide.png",
+      link: "/ford-f250-rhd-conversion-import-compliance-road-ready-guide",
+    },
+    {
+      title:
+        "Right-Hand Drive American Trucks Australia – Conversion & Compliance",
+      date: "10 September 2025",
+      description:
+        "Learn how to convert American trucks to right-hand drive in Australia. ADR compliance, RHD conversion, and import tips by SCD Direct.",
+      image:
+        "/blogs/right-hand-drive-american-trucks-import-conversion-&-compliance-guide.png",
+      link: "/right-hand-drive-american-trucks-import-conversion-compliance",
+    },
+    {
+      title:
+        "American Trucks Australia: Everything You Need to Know",
+      date: "11 September 2025",
+      description:
+        "Explore American trucks in Australia. Learn about import processes, RHD conversions, ADR compliance, and top models for towing and work.",
+      image:
+        "/blogs/american-trucks-australia-everything-you-need-to-know.png",
+      link: "/american-trucks-australia-guide",
+    },
+     {
+      title:
+        "Ford Truck Conversion Australia – RHD, ADR Compliance & Import Guide",
+      date: "12 September 2025",
+      description:
+        "Learn how to convert Ford trucks in Australia. RHD conversion, ADR compliance, towing, and import services by SCD Direct.",
+      image:
+        "/blogs/ford-truck-conversion-australia-rhd-adr-compliance-&-road-ready-trucks.png",
+      link: "/ford-truck-conversion-australia-rhd-adr-compliance-road-ready",
+    },
+    {
+      title:
+        "How Much Do American Trucks Cost in Australia?",
+      date: "13 September 2025",
+      description:
+        "Discover the cost of American trucks in Australia, including RHD conversion, ADR compliance, and finance options. Learn about American truck conversion costs.",
+      image:
+        "/blogs/how-much-do-american-trucks-cost-in-australia.png",
+      link: "/american-truck-prices-australia",
+    },
+    {
+      title:
+        "Maintaining Imported American Trucks in Australia – Tips & Advice",
+      date: "14 September 2025",
+      description:
+        "Learn essential tips for maintaining imported American trucks in Australia. Keep your Ford, RAM, or Chevrolet truck RHD and ADR-compliant.",
+      image:
+        "/blogs/tips-for-maintaining-imported-american-trucks-in-australia.png",
+      link: "/maintaining-imported-american-trucks-australia",
+    },
+    {
+      title:
+        "How to Import American Trucks to Australia: Costs, Rules & Best Cities",
+      date: "15 September 2025",
+      description:
+        "Learn how to import American trucks to Australia. Discover costs, ADR compliance rules, and best cities for RHD conversions and registration.",
+      image:
+        "/blogs/how-to-import-american-trucks-to-astralia-costs-rules-&-best-cities.png",
+      link: "/import-american-trucks-australia-costs-rules-cities",
+    },
+    {
+      title:
+        "Top American Truck Accessories and Upgrades for Australian Roads",
+      date: "16 September 2025",
+      description:
+        "Explore top accessories and upgrades for American trucks in Australia. Enhance your Ford, RAM, or Chevrolet truck for towing, off-road, and daily driving.",
+      image:
+        "/blogs/top-american-truck-accessories-and-upgrades-for-australian-roads.png",
+      link: "/top-american-truck-accessories-upgrades-australia",
     },
   ];
 

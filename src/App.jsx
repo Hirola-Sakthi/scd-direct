@@ -32,6 +32,26 @@ import BlogContentNine from './pages/BlogsSingleContainer/BlogContentNine';
 import BlogContentTen from './pages/BlogsSingleContainer/BlogContentTen';
 import BlogContentEleven from './pages/BlogsSingleContainer/BlogContentEleven';
 import BlogContentTwelve from './pages/BlogsSingleContainer/BlogContentTwelve';
+import BlogContentThirteen from './pages/BlogsSingleContainer/BlogContentThirteen';
+import BlogContentFourteen from './pages/BlogsSingleContainer/BlogContentFourteen';
+import BlogContentFifteen from './pages/BlogsSingleContainer/BlogContentFifteen';
+import BlogContentSixteen from './pages/BlogsSingleContainer/BlogContentSixteen';
+import BlogContentSeventeen from './pages/BlogsSingleContainer/BlogContentSeventeen';
+import BlogContentEighteen from './pages/BlogsSingleContainer/BlogContentEighteen';
+import BlogContentNineteen from './pages/BlogsSingleContainer/BlogContentNineteen';
+import BlogContentTwenty from './pages/BlogsSingleContainer/BlogContentTwenty';
+import BlogContentTwentyone from './pages/BlogsSingleContainer/BlogContentTwentyone';
+import BlogContentTwentytwo from './pages/BlogsSingleContainer/BlogContentTwentytwo';
+import BlogContentTwentythree from './pages/BlogsSingleContainer/BlogContentTwentythree';
+import BlogContentTwentyfour from './pages/BlogsSingleContainer/BlogContentTwentyfour';
+import BlogContentTwentyfive from './pages/BlogsSingleContainer/BlogContentTwentyfive';
+import BlogContentTwentysix from './pages/BlogsSingleContainer/BlogContentTwentysix';
+import BlogContentTwentyseven from './pages/BlogsSingleContainer/BlogContentTwentyseven';
+import BlogContentTwentyeight from './pages/BlogsSingleContainer/BlogContentTwentyeight';
+import BlogContentTwentynine from './pages/BlogsSingleContainer/BlogContentTwentynine';
+import BlogContentThirty from './pages/BlogsSingleContainer/BlogContentThirty';
+import BlogContentThirtyone from './pages/BlogsSingleContainer/BlogContentThirtyone';
+import BlogContentThirtytwo from './pages/BlogsSingleContainer/BlogContentThirtytwo';
 
 function App() {
   const helmetContext = {}
@@ -85,6 +105,46 @@ function App() {
         <Route path='/how-to-avoid-common-mistakes-when-importing-cars-to-australia' exact element={<BlogContentTen />} />
         <Route path='/tips-vehicle-shipping-usa-to-australia' exact element={<BlogContentEleven />} />
         <Route path='/australians-choosing-american-pickup-trucks' exact element={<BlogContentTwelve />} />
+        <Route path='/adr-compliance-importing-converting-american-trucks-australia' exact element={<BlogContentThirteen />} />
+        <Route path='/ford-f150-vs-f250-rhd-conversion-australia' exact element={<BlogContentFourteen />} />
+        <Route path='/ram-1500-2500-3500-towing-australia' exact element={<BlogContentFifteen />} />
+        <Route path='/rhd-conversion-melbourne-american-trucks-adr-compliance' exact element={<BlogContentSixteen />} />
+        <Route path='/rhd-conversion-sydney-american-trucks-&-adr-compliance' exact element={<BlogContentSeventeen />} />
+        <Route path='/right-hand-drive-conversions-qld-rhd-american-trucks-adr-compliance' exact element={<BlogContentEighteen />} />
+        <Route path='/right-hand-drive-conversions-australia-guide' exact element={<BlogContentNineteen />} />
+        <Route path='/truck-conversion-specialists-australia-rhd-adr-compliance' exact element={<BlogContentTwenty />} />
+        <Route path='/vehicle-compliance-australia-rhd-adr-certification' exact element={<BlogContentTwentyone />} />
+        <Route path='/american-trucks-popularity-australia-top-models' exact element={<BlogContentTwentytwo />} />
+        <Route path='/adr-compliance-trucks-australia-rhd-conversion-safety-standards' exact element={<BlogContentTwentythree />} />
+        <Route path='/buy-american-trucks-australia-guide' exact element={<BlogContentTwentyfour />} />
+        <Route path='/ford-f250-rhd-conversion-import-compliance-road-ready-guide' exact element={<BlogContentTwentyfive />} />
+        <Route path='/right-hand-drive-american-trucks-import-conversion-compliance' exact element={<BlogContentTwentysix />} />
+        <Route path='/american-trucks-australia-guide' exact element={<BlogContentTwentyseven />} />
+        <Route path='/ford-truck-conversion-australia-rhd-adr-compliance-road-ready' exact element={<BlogContentTwentyeight />} />
+        <Route path='/american-truck-prices-australia' exact element={<BlogContentTwentynine />} />
+        <Route path='/maintaining-imported-american-trucks-australia' exact element={<BlogContentThirty />} />
+        <Route path='/import-american-trucks-australia-costs-rules-cities' exact element={<BlogContentThirtyone />} />
+        <Route path='/top-american-truck-accessories-upgrades-australia' exact element={<BlogContentThirtytwo />} />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       </Routes>
     </Router>

@@ -34,7 +34,7 @@ const BlogEight = () => {
               <p>
                 By<span> SCD Direct</span>
               </p>
-              <p>5 September, 2025</p>
+              <p>12 August, 2025</p>
             </div>
             <div className="blog-single-page-text10">
               <p>
