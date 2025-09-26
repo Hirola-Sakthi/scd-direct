@@ -330,6 +330,106 @@ const Blogscontentcards = ({ filterLink }) => {
         "/blogs/top-american-truck-accessories-and-upgrades-for-australian-roads.png",
       link: "/top-american-truck-accessories-upgrades-australia",
     },
+    {
+      title:
+        "American Truck Compliance ADR: RHD Conversion & Road Safety in Australia",
+      date: "17 September 2025",
+      description:
+        "Ensure your American truck meets ADR compliance in Australia. Learn about RHD conversion, safety regulations, and road-legal requirements with SCD Direct.",
+      image:
+        "/blogs/american-truck-compliance-adr-rhd-conversion-&-road-safety-in-australia.png",
+      link: "/american-truck-compliance-adr-rhd-conversion-safety-standards-australia",
+    },
+    {
+      title:
+        "Best American Trucks for Caravan Towing in Australia 2025",
+      date: "18 September 2025",
+      description:
+        "Discover the top American trucks for caravan towing in Australia. Compare Ford, RAM, and Chevrolet models with RHD conversions and ADR compliance.",
+      image:
+        "/blogs/best-american-trucks-for-caravan-towing-in-australia-2025-Guide.png",
+      link: "/best-american-trucks-caravan-towing-australia-2025",
+    },
+    {
+      title:
+        "Chevrolet Silverado and GMC Sierra: Right-Hand Drive Conversions in Australia",
+      date: "19 September 2025",
+      description:
+        "Get expert RHD conversions for Chevrolet Silverado and GMC Sierra in Australia. Learn about ADR compliance, costs, and benefits.",
+      image:
+        "/blogs/chevrolet-silverado-and-gmc-sierra-right-hand-drive-conversions-in-australia.png",
+      link: "/chevrolet-silverado-gmc-sierra-rhd-conversions-australia",
+    },
+     {
+      title:
+        "Ford F150 Australia: Import, RHD Conversion & Towing Guide",
+      date: "20 September 2025",
+      description:
+        "Discover Ford F150 in Australia. Learn about import, RHD conversion, ADR compliance, towing capability, and options with SCD Direct.",
+      image:
+        "/blogs/ford-f150-australia-import-rhd-conversion-&-towing-guide.png",
+      link: "/ford-f150-australia-import-rhd-conversion-towing-guide",
+    },
+    {
+      title:
+        "Ram Trucks Australia: Power, Towing & RHD Conversion Guide",
+      date: "21 September 2025",
+      description:
+        "Explore Ram trucks in Australia. Learn about RHD conversion, ADR compliance, towing capabilities, and importing American trucks with SCD Direct.",
+      image:
+        "/blogs/ram-trucks-australia-power-towing-&-rhd-conversion-guide.png",
+      link: "/ram-trucks-australia-power-towing-rhd-conversion-guide",
+    },
+    {
+      title:
+        "RHD American Trucks Australia: Import, Conversion & Compliance Guide",
+      date: "22 September 2025",
+      description:
+        "Discover RHD American trucks in Australia. Learn about import, RHD conversion, ADR compliance, and top truck models like Ford, RAM, and Chevrolet.",
+      image:
+        "/blogs/rhd-american-trucks-australia-import-conversion-compliance-guide.png",
+      link: "/rhd-american-trucks-australia-import-conversion-compliance-guide",
+    },
+     {
+      title:
+        "The Complete Buyer’s Guide to American Trucks in Australia",
+      date: "23 September 2025",
+      description:
+        "Complete buyer’s guide to American trucks in Australia. Learn about ADR compliance, RHD conversions, towing capacity, and top brands.",
+      image:
+        "/blogs/the-complete-buyer’s-guide-to-america-trucks-in-australia.png",
+      link: "/complete-buyers-guide-american-trucks-australia",
+    },
+    {
+      title:
+        "Chevrolet Silverado Australia – RHD Conversion, ADR Compliance & Import Guide",
+      date: "24 September 2025",
+      description:
+        "Explore Chevrolet Silverado in Australia. Learn about RHD conversion, ADR compliance, towing, and importing American trucks with SCD Direct.",
+      image:
+        "/blogs/chevrolet-silverado-australia-import-rhd-conversion-&-adr-compliance.png",
+      link: "/chevrolet-silverado-australia-import-rhd-conversion-adr",
+    },
+      {
+      title:
+        "Chevrolet Silverado RHD Australia – Conversion, ADR Compliance & Import Guide",
+      date: "25 September 2025",
+      description:
+        "Discover Chevrolet Silverado RHD trucks in Australia. Learn about RHD conversion, ADR compliance, towing, and import services with SCD Direct.",
+      image:
+        "/blogs/chevrolet-silverado-rhd-import-conversion-&-adr-compliance-australia.png",
+      link: "/chevrolet-silverado-rhd-import-conversion-adr-australia",
+    },
+    {
+      title:
+        "Import American Trucks Australia: RHD Conversion & ADR Compliance",
+      date: "26 September 2025",
+      description:
+        "Learn how to import American trucks to Australia. RHD conversion, ADR compliance, towing, and registration services by SCD Direct.",
+      image:
+        "/blogs/import-american-trucks-australia-rhd-conversion-&-adr-compliance.png",
+      link: "/import-american-trucks-australia-rhd-conversion-adr",
+    },
   ];
 
   const reversedBlogData = blogData.reverse();
