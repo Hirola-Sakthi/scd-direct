@@ -178,7 +178,7 @@ const Blogscontentcards = ({ filterLink }) => {
         "Expert RHD conversions in Sydney for American trucks. ADR compliance, towing readiness, and road-legal safety with SCD Direct.",
       image:
         "/blogs/rhd-conversion-sydney-professional-american-truck-conversions.png",
-      link: "/rhd-conversion-sydney-american-trucks-&-adr-compliance",
+      link: "/rhd-conversion-sydney-american-trucks-and-adr-compliance",
     },
     {
       title:

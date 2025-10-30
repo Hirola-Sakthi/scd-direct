@@ -21,6 +21,9 @@ const ComingSoon = () => {
               <div className="title">
                 <h2>COMING SOON</h2>
               </div>
+               <div className="brand-name">
+                <h3>2025 Ford Bronco</h3>
+              </div>
             </div>
             <div className="image-and-button-section">
               <div className="container">
@@ -47,27 +50,27 @@ const ComingSoon = () => {
                   <SwiperSlide>
                     <img
                       className="swiper-images"
-                      src="/home/homebanner.avif"
+                      src="/home/2025-ford-bronco-1.jpg"
                       alt=""
                     />
-                    <div className="row">
+                    {/* <div className="row">
                       <div className="vehicle-button-parent">
-                        <button className="vehicle-button">2025 GMC HUMMER EV SUV</button>
+                        <button className="vehicle-button" style={{color: '#000'}}>2025 Ford Bronco</button>
                       </div>
-                    </div>
+                    </div> */}
                   </SwiperSlide>
-                  <SwiperSlide>
+                  {/* <SwiperSlide>
                     <img
                       className="swiper-images"
-                      src="/home/coming-soon-banckground.avif"
+                      src="/home/2025-ford-bronco-2.jpg"
                       alt=""
                     />
                     <div className="row">
                       <div className="vehicle-button-parent">
-                        <button className="vehicle-button" style={{color: '#000'}}>RAM 1500 REV</button>
+                        <button className="vehicle-button" style={{color: '#000'}}>2025 Ford Bronco</button>
                       </div>
                     </div>
-                  </SwiperSlide>
+                  </SwiperSlide> */}
                 </Swiper>
               </div>
             </div>

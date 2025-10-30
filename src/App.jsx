@@ -119,7 +119,7 @@ function App() {
         <Route path='/ford-f150-vs-f250-rhd-conversion-australia' exact element={<BlogContentFourteen />} />
         <Route path='/ram-1500-2500-3500-towing-australia' exact element={<BlogContentFifteen />} />
         <Route path='/rhd-conversion-melbourne-american-trucks-adr-compliance' exact element={<BlogContentSixteen />} />
-        <Route path='/rhd-conversion-sydney-american-trucks-&-adr-compliance' exact element={<BlogContentSeventeen />} />
+        <Route path='/rhd-conversion-sydney-american-trucks-and-adr-compliance' exact element={<BlogContentSeventeen />} />
         <Route path='/right-hand-drive-conversions-qld-rhd-american-trucks-adr-compliance' exact element={<BlogContentEighteen />} />
         <Route path='/right-hand-drive-conversions-australia-guide' exact element={<BlogContentNineteen />} />
         <Route path='/truck-conversion-specialists-australia-rhd-adr-compliance' exact element={<BlogContentTwenty />} />

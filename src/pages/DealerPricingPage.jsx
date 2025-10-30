@@ -69,14 +69,14 @@ const DealerPricingPage = () => {
       >
         <HummerComingSoon />
       </motion.div>
-      <motion.div
+      {/* <motion.div
         initial="hidden"
         whileInView="visible"
         variants={fadeInVariant}
         viewport={{ once: true }}
       >
         <Ram1500RevComingSoon />
-      </motion.div>
+      </motion.div> */}
       <motion.div
         initial="hidden"
         whileInView="visible"
