@@ -4,7 +4,8 @@ import FooterBottom from "../../components/Common/FooterBottom";
 import CustomHeader from "../../components/Common/Header";
 import Footer from "../../components/Common/Footer";
 import TopBar from "../../components/Common/TopBar";
-import BlogThirty from "../BlogsSingle/Blogthirty";
+import BlogThirty from "../BlogsSingle/BlogThirty";
+
 const BlogContentThirty = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
